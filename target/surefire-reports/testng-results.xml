@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Conduit Automation Test Suite" duration-ms="35181" started-at="2022-02-05T05:03:12Z" finished-at="2022-02-05T05:03:47Z">
+    <groups>
+    </groups>
+    <test name="Conduit Demo Automated Smoke Test" duration-ms="35181" started-at="2022-02-05T05:03:12Z" finished-at="2022-02-05T05:03:47Z">
+      <class name="com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios@340f438e]" name="setUp" is-config="true" duration-ms="3242" started-at="2022-02-05T00:03:12Z" finished-at="2022-02-05T00:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="user_should_be_able_to_sign_with_valid_credentials()[pri:1, instance:com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios@340f438e]" name="user_should_be_able_to_sign_with_valid_credentials" duration-ms="21496" started-at="2022-02-05T00:03:15Z" description="Test 002 : Validate user is Able to signin with Valide Username and Password" finished-at="2022-02-05T00:03:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_be_able_to_sign_with_valid_credentials -->
+        <test-method status="PASS" signature="user_should_not_be_able_to_sign_with_invalid_credentials()[pri:2, instance:com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios@340f438e]" name="user_should_not_be_able_to_sign_with_invalid_credentials" duration-ms="10224" started-at="2022-02-05T00:03:36Z" description="Test 002 : Validate user is Able to signin with Valide Username and Password" finished-at="2022-02-05T00:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_should_not_be_able_to_sign_with_invalid_credentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios@340f438e]" name="tearDown" is-config="true" duration-ms="204" started-at="2022-02-05T00:03:47Z" finished-at="2022-02-05T00:03:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios -->
+    </test> <!-- Conduit Demo Automated Smoke Test -->
+  </suite> <!-- Conduit Automation Test Suite -->
+</testng-results>

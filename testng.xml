@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Conduit Automation Test Suite">
+	<test thread-count="1"
+		name="Conduit Demo Automated Smoke Test">
+		<classes>
+			<!-- <class name="com.selenium.demo.testcases.TestCase_001_AddToCart_MinimunAmount_CartQuantity_CartPrice_Validation"/> -->
+			<!-- <class name="com.selenium.demo.testcases.TestCase_002_Validate_Filter_Protein_Type_Seafood_Should_Filter_Two_Meals"/> -->
+			<!-- <class name="com.selenium.demo.testcases.TestCase_003_Validate_ProgressBar_Data_Is_Correct"/> -->
+<!-- 			<class name="com.conduit.demo.testcases.TestCase_001_Validate_Conduit_Homepage" /> -->
+			<class name="com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

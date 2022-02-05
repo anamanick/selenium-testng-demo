@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MyMuscleChef Automation Test Suite]">
+  <test name="MyMuscleChef Demo Automated Smoke Test(failed)">
+    <classes>
+      <class name="com.mymusclechef.demo.testcases.TestCase_003_Validate_ProgressBar_Data_Is_Correct">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validate_protein_type_seafood_should_filter_two_meals"/>
+        </methods>
+      </class> <!-- com.mymusclechef.demo.testcases.TestCase_003_Validate_ProgressBar_Data_Is_Correct -->
+      <class name="com.mymusclechef.demo.testcases.TestCase_002_Validate_Filter_Protein_Type_Seafood_Should_Filter_Two_Meals">
+        <methods>
+          <include name="setUp"/>
+          <include name="validate_protein_type_seafood_should_filter_two_meals"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mymusclechef.demo.testcases.TestCase_002_Validate_Filter_Protein_Type_Seafood_Should_Filter_Two_Meals -->
+      <class name="com.mymusclechef.demo.testcases.TestCase_001_AddToCart_MinimunAmount_CartQuantity_CartPrice_Validation">
+        <methods>
+          <include name="check_the_number_of_items_in_the_Add_to_Cart_button_is_correct"/>
+          <include name="check_if_the_price_is_correct_in_the_Add_to_Cart_button"/>
+          <include name="user_cannot_Add_to_Cart_unless_he_adds_the_minimum_amount_of_99_dollars"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mymusclechef.demo.testcases.TestCase_001_AddToCart_MinimunAmount_CartQuantity_CartPrice_Validation -->
+    </classes>
+  </test> <!-- MyMuscleChef Demo Automated Smoke Test(failed) -->
+</suite> <!-- Failed suite [MyMuscleChef Automation Test Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Conduit Automation Test Suite]">
+  <test name="Conduit Demo Automated Smoke Test(failed)">
+    <classes>
+      <class name="com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios">
+        <methods>
+          <include name="tearDown"/>
+          <include name="user_should_not_be_able_to_sign_with_invalid_credentials"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.conduit.demo.testcases.TestCase_002_Validate_Conduit_SignIn_Scenarios -->
+    </classes>
+  </test> <!-- Conduit Demo Automated Smoke Test(failed) -->
+</suite> <!-- Failed suite [Conduit Automation Test Suite] -->

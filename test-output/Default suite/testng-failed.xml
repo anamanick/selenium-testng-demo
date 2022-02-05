@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mymusclechef.demo.testcases.TestCase_002_Validate_Filter_Protein_Type_Seafood_Should_Filter_Two_Meals">
+        <methods>
+          <include name="setUp"/>
+          <include name="validate_protein_type_seafood_should_filter_two_meals"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mymusclechef.demo.testcases.TestCase_002_Validate_Filter_Protein_Type_Seafood_Should_Filter_Two_Meals -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
