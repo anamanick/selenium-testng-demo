@@ -75,7 +75,7 @@ public class TestCase_002_Validate_Conduit_SignIn_Scenarios extends TestBase {
 
 		// Wait Statement
 		WebDriverWait wait =new WebDriverWait (driver, 15);
-		//wait.until(ExpectedConditions.elementToBeClickable(homePage.linkHome));
+		wait.until(ExpectedConditions.elementToBeClickable(homePage.linkHome));
 		homePage.clicklinkSignIn();
 		Thread.sleep(5000);
 		signInPage.typeEmail(strValidEmail);
@@ -99,7 +99,7 @@ public class TestCase_002_Validate_Conduit_SignIn_Scenarios extends TestBase {
 
 		// Wait Statement
 		WebDriverWait wait =new WebDriverWait (driver, 15);
-		//wait.until(ExpectedConditions.elementToBeClickable(homePage.linkHome));
+		wait.until(ExpectedConditions.elementToBeClickable(homePage.linkHome));
 		homePage.clicklinkSignIn();
 		Thread.sleep(5000);
 		signInPage.typeEmail(strInvalidEmail);
