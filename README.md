@@ -1,6 +1,6 @@
 # Page Object model Test automation framework using Selenium WebDriver with Java, TestNG and Maven.
-# Author	: Muhammad Rashid
-# Date		: 28/10/2021
+# Author	: 
+# Date		: 
 
 This is a sample robust and maintainable automation framework with page object model concept which is developed in Selenium WebDriver with java that can be used to  automate any web application.TestNG is used as test framework.
 
